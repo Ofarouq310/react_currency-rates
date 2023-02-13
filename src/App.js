@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import Details from './components/Details';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
+import Details from './pages/Details';
+import Home from './pages/Home';
+import Navbar from './layout/Navbar';
 import { fetchCurrency } from './redux/currency/currency';
 
 export default function App() {
