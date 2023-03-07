@@ -2,7 +2,7 @@ import { createAsyncThunk } from '@reduxjs/toolkit';
 import axios from 'axios';
 
 const FETCHCURRENCY = 'CURRENCY/FETCHCURRENCY';
-const baseURL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/usd.json';
+const baseURL = 'https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies.json';
 
 export const fetchCurrency = createAsyncThunk(
   FETCHCURRENCY,
