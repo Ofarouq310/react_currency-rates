@@ -1,10 +1,11 @@
 import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
-import Details from './pages/Details';
-import Currencies from './pages/Currencies';
-import Home from './pages/Home';
 import Navbar from './layout/Navbar';
+import Home from './pages/Home';
+import Currencies from './pages/Currencies';
+import Details from './pages/Details';
+import Footer from './layout/Footer';
 import { fetchCurrency } from './redux/currency/currency';
 import './App.css';
 
@@ -27,6 +28,9 @@ export default function App() {
           <Route path="/details/:currency" element={<Details />} />
         </Routes>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
