@@ -40,13 +40,13 @@ export default function Currencies() {
               {date}
             </h5>
             <div>
-              <i className="fa-solid fa-rotate arrow green" />
+              <i className="fa-solid fa-rotate arrow white" />
               <span className="card--text">API Status: Daily</span>
-              <span className="green" id="updated"> updated</span>
+              <span className="white"> updated</span>
             </div>
             <h5 id="instructions">Click on your preferred currency to see the details</h5>
           </div>
-          <div className="search-holder">
+          <div>
             <input type="text" className="search-bar" placeholder="Search by currency" onChange={handleSearch} />
           </div>
           <div className="currency--list-grid">
