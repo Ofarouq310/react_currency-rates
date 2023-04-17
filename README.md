@@ -60,7 +60,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Currency Rates](https://ofq310-currency-rates.netlify.app/)
+- [Currency Rates](https://ofq310-currency-rates.vercel.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
