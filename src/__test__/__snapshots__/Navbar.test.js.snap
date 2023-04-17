@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<nav>
+  <h1
+    id="navbar-header"
+  >
+    Currency Rates
+  </h1>
+  <ul
+    className="nav-list"
+  >
+    <li>
+      <a
+        className="nav-link"
+        href="/"
+        onClick={[Function]}
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        className="nav-link"
+        href="/currencies_list"
+        onClick={[Function]}
+      >
+        Currencies List
+      </a>
+    </li>
+  </ul>
+</nav>
+`;
