@@ -1,17 +1,28 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => (
   <nav>
     <h1 id="navbar-header">
-      Currency Rates
+      <NavLink to="/">Currency Rates</NavLink>
     </h1>
     <ul className="nav-list">
       <li>
-        <Link to="/" className="nav-link">Home</Link>
+        <NavLink
+          to="/"
+          className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}
+        >
+          Home
+        </NavLink>
       </li>
       <li>
-        <Link to="/currencies_list" className="nav-link">Currencies List</Link>
+        <NavLink
+          to="/currencies_list"
+          className={({ isActive }) => (isActive ? 'nav-link-active' : 'nav-link')}
+        >
+          Currencies List
+
+        </NavLink>
       </li>
     </ul>
   </nav>

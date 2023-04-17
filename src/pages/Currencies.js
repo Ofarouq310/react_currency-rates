@@ -1,4 +1,5 @@
 import React from 'react';
+import ScrollToTop from 'react-scroll-to-top';
 import { useSelector } from 'react-redux';
 import { nanoid } from '@reduxjs/toolkit';
 import Currency from '../components/Currency';
@@ -29,6 +30,7 @@ export default function Currencies() {
 
   return (
     <div className="currency-list--page">
+      <ScrollToTop smooth top={250} className="scroll-up-btn" />
       <div className="currency-list--container">
         <div className="bkg-anim" />
         <div className="bkg-anim" />

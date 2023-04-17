@@ -42,17 +42,18 @@ a {
   list-style: none;
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 
 .nav-link {
   color: rgb(86, 86, 86);
-  padding: 5px 10px;
   font-size: 0.8rem;
 }
 
-.nav-link:hover {
+.nav-link-active {
   background-color: #454545;
   color: #fcfcfc;
+  padding: 5px 10px;
   cursor: pointer;
   transform: scale(1.02);
   transition: all 0.2s ease-in-out;
@@ -212,13 +213,17 @@ a {
 
 /* Currency List Page */
 
+.scroll-up-btn {
+  transition: all 0.2s ease-in-out;
+}
+
 .currency-list--page {
   width: 100%;
-  background-color: #cfd0cf;
+  min-height: 100vh;
+  background: radial-gradient(circle, rgba(202, 208, 208, 1) 0%, rgba(194, 199, 200, 1) 100%);
 }
 
 .currency-list--container {
-  background-color: #cfd0cf;
   position: relative;
   z-index: 1;
   padding: 20px;
@@ -392,25 +397,34 @@ a {
 
 .footer {
   width: 100%;
-  height: 120px;
+  height: 180px;
   position: relative;
+  padding: 10% 0;
+  margin-top: 0;
   z-index: 1;
   bottom: 0;
-  background-color: #454545;
+  background: linear-gradient(74deg, rgba(14, 14, 14, 1) 0%, rgba(66, 66, 66, 1) 99%);
   color: #fcfcfc;
-  padding: 5% 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 5%;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   text-align: center;
   box-shadow: 0 3px 20px 0 rgb(0 0 0 / 52%);
 }
 
+.footer-1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+}
+
 .footer-header {
+  font-size: 0.75rem;
   font-family: "Josefin Sans", sans-serif;
-  font-size: 1rem;
   font-weight: 200;
   margin-inline: 5px;
 }
@@ -422,6 +436,7 @@ a {
 }
 
 .useful-links {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -430,6 +445,7 @@ a {
 }
 
 .contact {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -444,6 +460,19 @@ a {
 .footer-img {
   width: 12px;
   margin: 0 3px;
+}
+
+#logo {
+  width: 100px;
+  align-self: center;
+}
+
+.copyrights {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  padding: 8px;
+  font-size: 0.65rem;
 }
 
 /* Animation Keyframes */
@@ -542,5 +571,10 @@ a {
 
   .footer {
     padding: 2% 0;
+  }
+
+  #logo {
+    width: 140px;
+    align-self: center;
   }
 }
