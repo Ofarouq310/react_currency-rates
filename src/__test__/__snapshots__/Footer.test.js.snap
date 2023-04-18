@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="footer"
+>
+  <div
+    className="useful-links"
+  >
+    <h3
+      className="footer-header"
+    >
+      USEFUL LINKS
+    </h3>
+    <hr
+      className="footer-breaker"
+    />
+    <a
+      href="/"
+    >
+      Home
+    </a>
+    <a
+      href="/currencies_list"
+    >
+      Currencies
+    </a>
+  </div>
+  <div
+    className="contact"
+  >
+    <h3
+      className="footer-header"
+    >
+      CONTACT
+    </h3>
+    <hr
+      className="footer-breaker"
+    />
+    <a
+      href="mailto:ofarouq310@gmail.com"
+    >
+      <img
+        alt="mail-button"
+        id="mail-btn"
+        src="email-btn.png"
+      />
+    </a>
+    <div>
+      <a
+        href="https://www.twitter.com/Ofarouq310"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="twitter-icon"
+          className="footer-img"
+          src="Twitter Icon.png"
+        />
+      </a>
+      <a
+        href="https://www.facebook.com/Ofarouq310"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="facebook-icon"
+          className="footer-img"
+          src="Facebook Icon.png"
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/Ofarouq310/"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="linkedin-icon"
+          className="footer-img"
+          src="Linkedin Icon.png"
+        />
+      </a>
+      <a
+        href="https://www.github.com/Ofarouq310"
+        rel="noreferrer"
+        target="_blank"
+      >
+        <img
+          alt="github-icon"
+          className="footer-img"
+          src="GitHub Icon.png"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
